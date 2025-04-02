@@ -154,5 +154,19 @@
         <p>On this special day, I want you to know how incredible you are. Your smile lights up every room, your kindness touches every heart, and your presence makes life more beautiful. May your birthday be filled with as much joy and happiness as you bring to everyone around you. You deserve the world and more! 🎉💖</p>
         <a href="#" class="button">keep smiling!</a>
     </div>
+
+    <script>
+    var password = "m123"; // Set your password here
+  
+    function checkPassword() {
+      var userInput = prompt("Enter the password:");
+      if (userInput !== password) {
+        alert("Incorrect password. Access denied.");
+        window.location.href = "https://google.com"; // Redirect on failure
+      }
+    }
+  
+    checkPassword();
+  </script>
 </body>
 </html>
